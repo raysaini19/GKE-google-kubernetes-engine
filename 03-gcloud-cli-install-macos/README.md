@@ -80,10 +80,14 @@ gcloud-cli-software
 gke-gcloud-auth-plugin --version
 
 # Install gke-gcloud-auth-plugin
+gcloud components list
 gcloud components install gke-gcloud-auth-plugin
 
 # Verify if gke-gcloud-auth-plugin installed
 gke-gcloud-auth-plugin --version
+
+#To delete 
+gcloud components remove gke-gcloud-auth-plugin
 ```
 
 ## Step-06: Remove any existing kubectl clients
