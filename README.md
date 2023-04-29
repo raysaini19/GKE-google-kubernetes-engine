@@ -4,78 +4,74 @@
 
 
 ## Course Modules01-Create-GCP-Account
-02-Create-GKE-Cluster
-03-gcloud-cli-install-macos
-04-gcloud-cli-install-windowsos
-05-Docker-For-Beginners
-06-kubectl-imperative-k8s-pods
-07-kubectl-declarative-k8s-ReplicaSets
-08-kubectl-imperative-k8s-deployment-CREATE
-09-kubectl-imperative-k8s-deployment-UPDATE
-10-kubectl-imperative-k8s-deployment-ROLLBACK
-11-kubectl-imperative-k8s-deployment-PAUSE-RESUME
-12-kubectl-imperative-k8s-services
-13-YAML-Basics
-14-yaml-declarative-k8s-pods
-15-yaml-declarative-k8s-replicasets
-16-yaml-declarative-k8s-deployments
-17-yaml-declarative-k8s-services
-18-GKE-NodePort-Service
-19-GKE-Headless-Service
-20-GKE-Private-Cluster
-21-GKE-PD-existing-SC-standard-rwo
-22-GKE-PD-existing-SC-premium-rwo
-23-GKE-PD-Custom-StorageClass
-24-GKE-PD-preexisting-PD
-25-GKE-PD-Regional-PD
-26-GKE-PD-Volume-Snapshots-and-Restore
-27-GKE-PD-Volume-Clone
-
-
-28-GKE-Storage-with-GCP-CloudSQL-Public
-29-GKE-Storage-with-GCP-CloudSQL-Private
-30-GCP-CloudSQL-Private-NO-ExternalNameService
-31-GKE-FileStore-default-StorageClass
-32-GKE-FileStore-custom-StorageClass
-33-GKE-FileStore-Backup-and-Restore
-34-GKE-Ingress-Basics
-35-GKE-Ingress-Context-Path-Routing
-36-GKE-Ingress-Custom-Health-Check
-37-Google-Cloud-Domains
-38-GKE-Ingress-ExternalIP
-39-GKE-Ingress-Google-Managed-SSL
-40-GKE-Ingress-Google-Managed-SSL-Redirect
-41-GKE-Workload-Identity
-42-GKE-ExternalDNS-Install
-43-GKE-ExternalDNS-Ingress-Demo
-44-GKE-ExternalDNS-Service-Demo
-45-GKE-Ingress-NameBasedVhost-Routing
-46-GKE-Ingress-SSL-Policy
-47-GKE-Ingress-with-Identity-Aware-Proxy
-48-GKE-Ingress-SelfSigned-SSL
-49-GKE-Ingress-Preshared-SSL
-50-GKE-Ingress-Cloud-CDN
-51-GKE-Ingress-ClientIP-Affinity
-52-GKE-Ingress-Cookie-Affinity
-53-GKE-Ingress-HealthCheck-with-backendConfig
-54-GKE-Ingress-InternalLB
-55-GKE-Ingress-Cloud-Armor
-56-GKE-Artifact-Registry
-57-GKE-Continuous-Integration
-58-GKE-Continuous-Delivery-with-CloudBuild
-59-Kubernetes-liveness-probe
-60-Kubernetes-Startup-Probe
-61-Kubernetes-Readiness-Probe
-62-Kubernetes-Requests-and-Limits
-63-GKE-Cluster-Autoscaling
-64-Kubernetes-Namespaces
-65-Kubernetes-Namespaces-ResourceQuota
-66-Kubernetes-Namespaces-LimitRange
-67-GKE-Horizontal-Pod-Autoscaler
-68-GKE-AutoPilot-Cluster
-69-Access-To-Multiple-Clusters
-	
-
+01. Google Cloud Account Creation
+02. Create GKE Standard Public Cluster				
+03. Install gcloud CLI on mac OS				
+04. Install gcloud CLI on Windows OS				
+05. Docker Fundamentals				
+06. Kubernetes Pods				
+07. Kubernetes ReplicaSets				
+08. Kubernetes Deployment - CREATE				
+09. Kubernetes Deployment - UPDATE				
+10. Kubernetes Deployment - ROLLBACK				
+11. Kubernetes Deployments - Pause and Resume				
+12. Kubernetes ClusterIP and Load Balancer Service				
+13. YAML Basics				
+14. Kubernetes Pod  & Service using YAML				
+15. Kubernetes ReplicaSets using YAML				
+16. Kubernetes Deployment using YAML				
+17. Kubernetes Services using YAML				
+18.  GKE Kubernetes NodePort Service				
+19. GKE Kubernetes Headless Service				
+20. GKE Private Cluster				
+21. How to use GCP Persistent Disks in GKE ?				
+22. How to use Balanced Persistent Disk in GKE ?				
+23. How to use Custom Storage Class in GKE for Persistent Disks ?				
+24. How to use Pre-existing Persistent Disks in GKE ?				
+25. How to use Regional Persistent Disks in GKE ?				
+26. How to perform Persistent Disk  Volume Snapshots and Volume Restore ?				
+28. GKE Workloads and Cloud SQL with Public IP				
+29. GKE Workloads and Cloud SQL with Private IP				
+30. GKE Workloads and Cloud SQL with Private IP and No ExternalName Service				
+31. How to use Google Cloud File Store in GKE ?				
+32. How to use Custom Storage Class for File Store in GKE ?				
+33. How to perform File Store Instance Volume Snapshots and Volume Restore ?				
+34. Ingress Service Basics				
+35. Ingress Context Path based Routing				
+36. Ingress Custom Health Checks using Readiness Probes				
+37. Register a Google Cloud Domain for some advanced Ingress Service Demos 				
+38. Ingress with Static External IP and Cloud DNS				
+39. Google Managed SSL Certificates for Ingress				
+40. Ingress HTTP to HTTPS Redirect				
+41. GKE Workload Identity				
+42. External DNS Controller Install				
+43. External DNS - Ingress Service				
+44. External DNS - Kubernetes Service				
+45. Ingress Name based Virtual Host Routing				
+46. Ingress SSL Policy				
+47. Ingress with Identity-Aware Proxy				
+48. Ingress with Self Signed SSL Certificates				
+49. Ingress with Pre-shared SSL Certificates				
+50. Ingress with Cloud CDN, HTTP Access Logging and Timeouts				
+51. Ingress with Client IP Affinity				
+52. Ingress with Cookie Affinity				
+53. Ingress with Custom Health Checks using BackendConfig CRD				
+54. Ingress Internal Load Balancer				
+55. Ingress with Google Cloud Armor				
+56. Google Artifact Registry				
+57. GKE Continuous Integration				
+58. GKE Continuous Delivery				
+59. Kubernetes Liveness Probes				
+60. Kubernetes Startup Probes				
+61. Kubernetes Readiness Probe				
+62. Kubernetes Requests and Limits				
+63. GKE Cluster Autoscaling				
+64. Kubernetes Namespaces				
+65. Kubernetes Namespaces Resource Quota				
+66. Kubernetes Namespaces Limit Range				
+67. Kubernetes Horizontal Pod Autoscaler				
+68. GKE Autopilot Cluster				
+69. How to manage Multiple Cluster access in kubeconfig ?
 
 ## Kubernetes Concepts Covered
 01. Kubernetes Deployments (Create, Update, Rollback, Pause, Resume)
