@@ -3,8 +3,7 @@
 [![Image](images/course-title.png "Google Kubernetes Engine GKE with DevOps 75 Real-World Demos")](https://links.stacksimplify.com/gcp-google-kubernetes-engine-gke-with-devops)
 
 
-## Course Modules
-01-Create-GCP-Account
+## Course Modules01-Create-GCP-Account
 02-Create-GKE-Cluster
 03-gcloud-cli-install-macos
 04-gcloud-cli-install-windowsos
@@ -72,7 +71,7 @@
 66-Kubernetes-Namespaces-LimitRange
 67-GKE-Horizontal-Pod-Autoscaler
 68-GKE-AutoPilot-Cluster
-69-Access-To-Multiple-Clusters			
+69-Access-To-Multiple-Clusters
 	
 
 
